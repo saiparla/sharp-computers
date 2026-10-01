@@ -9,7 +9,7 @@ const Tally = () => {
         <div className="container">
           <div className="hero-content">
             <div className="hero-text fade-in-up">
-              <img src="/assets/images/tally/Tally_-_Logo.png" alt="Tally Solutions Logo" className="tally-logo-large" />
+              <img src={`${import.meta.env.BASE_URL}assets/images/tally/Tally_-_Logo.png`} alt="Tally Solutions Logo" className="tally-logo-large" />
               <h1>Powering Smarter Business Management</h1>
               <p>At Sharp Computers, we don’t just sell Tally — we transform the way you manage your business.
                 With over 25 years of proven expertise, we deliver reliable, scalable, and fully supported
@@ -20,7 +20,7 @@ const Tally = () => {
               </div>
             </div>
             <div className="hero-image fade-in-left">
-              <img src="/assets/images/tally/1.jpeg" alt="Tally Business Management" style={{ borderRadius: '20px', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }} />
+              <img src={`${import.meta.env.BASE_URL}assets/images/tally/1.jpeg`} alt="Tally Business Management" style={{ borderRadius: '20px', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }} />
             </div>
           </div>
         </div>
