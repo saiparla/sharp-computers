@@ -1,19 +1,16 @@
-# Sharp Computers - IT Solutions & Services
+# React + Vite
 
-## Live Website
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Explore the live project here: [https://saikumar-bali.github.io/sharp_computers/index.html](https://saikumar-bali.github.io/sharp_computers/index.html)
+Currently, two official plugins are available:
 
-## Project Overview
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-**Sharp Computers** is a leading multi-service IT solutions provider based in Vijayawada, India, with over 25 years of expertise. This project showcases their comprehensive offerings in:
+## React Compiler
 
-*   **Tally Solutions:** As a Tally Certified 3-Star Partner, Sharp Computers provides sales, service, customization, and support for Tally Prime Silver, Gold, and Enterprise editions, as well as Tally Server 9.
-*   **Computer Hardware & Peripherals:** A wide range of quality guaranteed products including laptops, desktops, PC components, gaming peripherals, and office solutions.
-*   **Advanced Surveillance Systems:** Installation and maintenance of modern security and surveillance solutions.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-The website serves as a digital storefront and information hub, detailing services, showcasing products, and highlighting the company's commitment to quality, innovation, and client satisfaction.
+## Expanding the Oxlint configuration
 
-## Credits
-
-This project was developed by ❤ - [saikumar-bali](https://github.com/saikumar-bali).
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
