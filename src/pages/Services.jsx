@@ -91,7 +91,7 @@ const Services = () => {
         <Container maxWidth="lg">
           {/* Tally */}
           <ServiceRow
-            img="/assets/images/tally.png"
+            img={`${import.meta.env.BASE_URL}assets/images/tally.png`}
             alt="Tally Solutions"
             title="Tally Solutions"
             icon={PieChartIcon}
@@ -110,7 +110,7 @@ const Services = () => {
           {/* Hardware */}
           <ServiceRow
             reverse
-            img="/assets/images/hardware.png"
+            img={`${import.meta.env.BASE_URL}assets/images/hardware.png`}
             alt="Hardware & IT Infrastructure"
             title="Hardware & IT Infrastructure"
             icon={MemoryIcon}
@@ -127,7 +127,7 @@ const Services = () => {
 
           {/* Security */}
           <ServiceRow
-            img="/assets/images/surveillance.png"
+            img={`${import.meta.env.BASE_URL}assets/images/surveillance.png`}
             alt="Surveillance Systems"
             title="Surveillance Systems (CCTV)"
             icon={SecurityIcon}
@@ -146,7 +146,7 @@ const Services = () => {
           {/* Maintenance */}
           <ServiceRow
             reverse
-            img="/assets/images/support.png"
+            img={`${import.meta.env.BASE_URL}assets/images/support.png`}
             alt="IT Support"
             title="Maintenance & Networking"
             icon={BuildIcon}
