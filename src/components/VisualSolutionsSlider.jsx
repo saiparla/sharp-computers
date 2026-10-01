@@ -201,7 +201,7 @@ const VisualSolutionsSlider = () => {
                 }}>
                   <Box
                     component="img"
-                    src={`/${currentImage}`}
+                    src={`${import.meta.env.BASE_URL}${currentImage}`}
                     alt={product.name}
                     sx={{
                       width: '100%',
@@ -234,7 +234,7 @@ const VisualSolutionsSlider = () => {
                       <Box
                         key={i}
                         component="img"
-                        src={`/${img}`}
+                        src={`${import.meta.env.BASE_URL}${img}`}
                         onClick={() => changeProductImage(index, i)}
                         sx={{
                           width: { xs: '35px', md: '45px' },
