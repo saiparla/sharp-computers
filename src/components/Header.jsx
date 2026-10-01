@@ -15,7 +15,7 @@ const Header = () => {
     <header className="header">
       <div className="container header-container">
         <Link to="/" className="logo">
-          <img src="/assets/logos/logo.jpg" alt="Sharp Computers Logo" />
+          <img src={`${import.meta.env.BASE_URL}assets/logos/logo.jpg`} alt="Sharp Computers Logo" />
         </Link>
         <nav className="navbar">
           <ul className={`nav-links ${menuActive ? 'active' : ''}`}>
