@@ -35,7 +35,7 @@ const About = () => {
               </ul>
             </div>
             <div className="about-img fade-in-left">
-              <img src="/assets/images/hero.png" alt="Office Team"
+              <img src={`${import.meta.env.BASE_URL}assets/images/hero.png`} alt="Office Team"
                 onError={(e) => { e.target.src = 'https://via.placeholder.com/600x600/00A3E0/ffffff?text=Our+Team'; }} />
             </div>
           </div>
