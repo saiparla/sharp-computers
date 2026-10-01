@@ -28,7 +28,7 @@ const ProductCard = ({ product, handleOpenModal }) => (
     }}>
       <CardMedia
         component="img"
-        image={`/${product.image}`}
+        image={`${import.meta.env.BASE_URL}${product.image}`}
         alt={product.name}
         sx={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }}
         onError={(e) => { e.target.src = 'https://via.placeholder.com/300x200?text=No+Image'; }}
