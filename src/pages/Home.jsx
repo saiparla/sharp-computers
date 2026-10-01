@@ -52,7 +52,7 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-image fade-in-left">
-            <img src="/assets/images/hero.png" alt="Modern Tech Office"
+            <img src={`${import.meta.env.BASE_URL}assets/images/hero.png`} alt="Modern Tech Office"
                 onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400/00A3E0/ffffff?text=Tech+Office'; }} />
           </div>
         </div>
@@ -146,7 +146,7 @@ const Home = () => {
               </div>
             </div>
             <div className="hero-image fade-in-left">
-              <img src="/assets/images/tally/1.jpeg" alt="Tally Solutions" style={{ borderRadius: '12px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }} />
+              <img src={`${import.meta.env.BASE_URL}assets/images/tally/1.jpeg`} alt="Tally Solutions" style={{ borderRadius: '12px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }} />
             </div>
           </div>
         </div>
@@ -301,7 +301,7 @@ const Home = () => {
             <>
               <Box sx={{ width: { xs: '100%', md: '50%' }, p: 4, display: 'flex', alignItems: 'center', justifyContent: 'center', bgcolor: '#fff' }}>
                 <img
-                  src={`/${selectedProduct.image}`}
+                  src={`${import.meta.env.BASE_URL}${selectedProduct.image}`}
                   alt={selectedProduct.name}
                   style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }}
                   onError={(e) => { e.target.src = 'https://via.placeholder.com/400x300?text=No+Image'; }}
