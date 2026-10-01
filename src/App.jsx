@@ -19,7 +19,7 @@ import Privacy from './pages/Privacy';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/sharp-computers">
       <ScrollToTop />
       <Header />
       <main style={{ minHeight: '80vh' }}>
